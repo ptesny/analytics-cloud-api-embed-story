@@ -1,0 +1,55 @@
+
+
+  <!DOCTYPE html>
+  <title>SACee Embedding from Kyma</title>
+  <html>
+      <style>
+      h1 { color: #73757d; }
+      iframe {
+        width: 100%;
+        height: 900px;
+      }
+      html {
+        font-family: Verdana, sans-serif
+      }
+    </style>
+    <body>
+      <h1>sacee</h1>
+        
+  <button type="button">Display Story from Kyma</button>
+  <iframe id="attachframe"></iframe>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    $("button").click(function () {
+                    var url = "https://oncdygdf2ke3quyccvxcwst.jp10.sac.ondemand.com/sap/fpa/ui/tenants/893f6/bo/story/7E0050581E24D39CE10000000A784278?mode=embed&pageBar=disable";  
+                    var token = 'eyJhbGciOiJSUzI1NiIsImprdSI6Imh0dHBzOi8vb25jZHlnZGYya2UzcXV5Y2N2eGN3c3QuYXV0aGVudGljYXRpb24uanAxMC5oYW5hLm9uZGVtYW5kLmNvbS90b2tlbl9rZXlzIiwia2lkIjoiZGVmYXVsdC1qd3Qta2V5LTExNDMyNTk1NTQiLCJ0eXAiOiJKV1QifQ.eyJqdGkiOiI4MzcyYzg3MmI1ZWI0ZmY4YWY2MDk3ZDA4Zjg4MzFmZSIsImV4dF9hdHRyIjp7ImVuaGFuY2VyIjoiWFNVQUEiLCJzdWJhY2NvdW50aWQiOiI2NDdlZWE2MS01ZTFlLTRjOGMtOGQxZS0wYzA4MDMwODI2ZjQiLCJ6ZG4iOiJvbmNkeWdkZjJrZTNxdXljY3Z4Y3dzdCIsInNlcnZpY2VpbnN0YW5jZWlkIjoiYjRhYzljNTQtMDIyNC00M2I5LWI0YWMtMjBlNmVhZmRiMzg2In0sInhzLnN5c3RlbS5hdHRyaWJ1dGVzIjp7InhzLnNhbWwuZ3JvdXBzIjpbInNhYyJdLCJ4cy5yb2xlY29sbGVjdGlvbnMiOlsic2FjLnVzZXJzIl19LCJnaXZlbl9uYW1lIjoicGlvdHIudGVzbnkiLCJ4cy51c2VyLmF0dHJpYnV0ZXMiOnt9LCJmYW1pbHlfbmFtZSI6InNhcC5jb20iLCJzdWIiOiJhZGFlMWFiYy02NGU1LTQ4MWEtYTZiZi01MWI2NDFjYjEyMDMiLCJzY29wZSI6WyJvcGVuaWQiLCJhcHByb3V0ZXItc2FjLXNhY2pwMTAhdDI1LnNhcC5mcGEudXNlciIsInVhYS51c2VyIl0sImNsaWVudF9pZCI6InNiLTMxNmM4ZWYwLTJiMzktNDE1OS04NDEzLTgwZTAwNTE0ODkyMSFiMzQyfGNsaWVudCFiMjUiLCJjaWQiOiJzYi0zMTZjOGVmMC0yYjM5LTQxNTktODQxMy04MGUwMDUxNDg5MjEhYjM0MnxjbGllbnQhYjI1IiwiYXpwIjoic2ItMzE2YzhlZjAtMmIzOS00MTU5LTg0MTMtODBlMDA1MTQ4OTIxIWIzNDJ8Y2xpZW50IWIyNSIsImdyYW50X3R5cGUiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJ1c2VyX2lkIjoiYWRhZTFhYmMtNjRlNS00ODFhLWE2YmYtNTFiNjQxY2IxMjAzIiwib3JpZ2luIjoiaGFuYWNsb3Vkc2VydmljZXMtZXUuYWNjb3VudHMub25kZW1hIiwidXNlcl9uYW1lIjoicGlvdHIudGVzbnlAc2FwLmNvbSIsImVtYWlsIjoicGlvdHIudGVzbnlAc2FwLmNvbSIsImF1dGhfdGltZSI6MTYwNzEyMzQ3MCwicmV2X3NpZyI6IjU2NDU0ZDYzIiwiaWF0IjoxNjA3MTI0MzAwLCJleHAiOjE2MDcxMjc5MDAsImlzcyI6Imh0dHBzOi8vb25jZHlnZGYya2UzcXV5Y2N2eGN3c3QuYXV0aGVudGljYXRpb24uanAxMC5oYW5hLm9uZGVtYW5kLmNvbS9vYXV0aC90b2tlbiIsInppZCI6IjY0N2VlYTYxLTVlMWUtNGM4Yy04ZDFlLTBjMDgwMzA4MjZmNCIsImF1ZCI6WyJhcHByb3V0ZXItc2FjLXNhY2pwMTAhdDI1LnNhcC5mcGEiLCJ1YWEiLCJvcGVuaWQiLCJzYi0zMTZjOGVmMC0yYjM5LTQxNTktODQxMy04MGUwMDUxNDg5MjEhYjM0MnxjbGllbnQhYjI1Il19.e4r5UR7JDpuo-Tfo8_EwluondbpWPNRDIAQVyNdtz1PHl2lIji_xuuhw48iWhKzHsHumnjVsRKu9kWKbzrOwprdAQ9nxmD_vtY5DkzSZq2CdNhorApQ7f0qB5RxJlCdqPI0mKc5MSWy9C2Ai7Rqaa-xG5kGWcitRv8nC-R4M2Z_4a6fQqkV1zI8MSFIYu2VrSojohQLY-jIb9Fr3XoPpcrXatkNHf-gQSGiFRGWY9BlDX6X0TxvsXLNLj7eNzRXxA5Hm3WkJsj1YCrc7B8RZRuyPutx31-KmjU-zj9XydO00zCKMP6yzs7BJ_Ctdg8CWLyTl7fQWUg5SKnrFdfG-hA';
+                    var postheaders = {
+                        'Authorization': 'Bearer ' + token,
+                    };
+                    console.log('success');
+
+                    // 2. step: get the SAC story
+                    $.ajax({
+                        type: 'GET',
+                        url: url,
+                        contentType: 'application/json',
+                        headers: postheaders,
+                        xhrFields: {
+                            withCredentials: true
+                        },
+                        success: function (data, status, settings) {
+                            console.log(settings.getResponseHeader("X-CSRF-Token"));
+                            console.log(JSON.stringify(data));
+
+                            $("iframe").attr("src", url);
+                        },
+
+                        error: function (xhr, ajaxOptions, thrownError) {
+                            alert(xhr.status);
+                            alert(thrownError);
+                        }
+                    });
+     });               
+    </script> 
+    </body>
+  </html>
